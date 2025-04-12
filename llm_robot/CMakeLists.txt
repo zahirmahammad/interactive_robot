@@ -166,6 +166,7 @@ catkin_install_python(PROGRAMS
   scripts/cam_to_map.py
   scripts/yolo_detect.py
   scripts/llm_inference.py
+  scripts/stroll.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
