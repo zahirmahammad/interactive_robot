@@ -30,9 +30,9 @@
   <include file="$(find turtlebot3_manipulation_gazebo)/launch/turtlebot3_manipulation_controller.launch"/>
   
   <!-- launch the map -->
-  <!-- <include file="$(find turtlebot3_navigation)/launch/turtlebot3_navigation.launch">
-    <arg name="map_file" default="/home/dock/turtlebot_ws/apr_12.yaml"/>
+  <include file="$(find turtlebot3_navigation)/launch/turtlebot3_navigation.launch">
+    <arg name="map_file" default="/home/ub20/turtlebot_ws/src/interactive_robot/apr_12.yaml"/>
     <arg name="open_rviz" default="false"/>
-  </include> -->
+  </include>
 
 </launch>
